@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todo list</title>
+    <title>todolist</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <script type="module" src="todos.js"></script>
 </head>
 <body>
-    <p>Hello demo1</p>
+    <h1>My TODOs list</h1>
+    <div>
+        <label for="todo-input">New Todo</label>
+        <input type="text" id="todo-input" placeholder="Enter text here"/>
+        <button id="add-todo-btn" disabled>Add</button>
+    </div>
+
+    <ul id="todo-list"></ul>
 </body>
 </html>
